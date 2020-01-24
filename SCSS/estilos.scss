@@ -1,0 +1,59 @@
+//------------------------------------
+//       PATRON DE COLORES
+//------------------------------------
+
+$principal: #8b88a5;
+$texto: #696e73;
+
+
+//-----------------------------------------
+//       SOBREESCRIBIENDO LOS ESTILOS DE BS
+//-----------------------------------------
+
+.bg-primary {
+    background-color: $principal !important;
+}
+
+.text-primary {
+    color: $principal !important;
+}
+
+.btn-primary {
+    background-color: $principal !important;
+    border-color: darken($principal, 15%) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: darken($principal, 15%) !important;
+    
+}
+.btn-primary:active {
+    background-color: darken($principal, 20%) !important;
+    border-color: darken($principal, 20%) !important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba($principal,.5) !important;
+}
+
+//------------------------------------
+//       ESTILOS DE DISEÑO
+//------------------------------------
+
+html{
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.14) !important;
+}
+
+body{
+    color: $texto !important;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.card:hover{
+
+    box-shadow: 0 0 10px #1b171a5e;
+}

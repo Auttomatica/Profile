@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="
+    imagenes/favicon.ico" type="image/x-icon">
+    <!-- FUENTES DE GOOGLE FONT  -->
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,700|Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
+    <!-- ARCHIVOS BOOTSTRAP -->
+    <link type="text/css" rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- ESTILOS CSS PROPIOS -->
+    <link type="text/css" rel="stylesheet" href="CSS/estilos.css">
+
+    <title>Mi Blog</title>
+
+</head>
+<body>
+    
+<!-- NAVEGADOR -->
+    <nav class="navbar  navbar-dark bg-dark fixed-top navbar-expand-md " >
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <span class="display-5"> <strong>Carmela</strong> Romero Luna</span>
+            </a>
+            <!-- CONTENIDO SOBRE EL QUE EL BOTON ACTUA --> 
+            <button type="button" class=" navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Desplegar menu de navegacion"><span class="navbar-toggler-icon"></span>
+            </button>
+             <!-- BOTON DESPlEGABLE -->
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btnQuienSoy">¿Quien soy?</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btnMisProyectos" onclick="getFocus()">Mis proyectos</a></li>
+                </ul>
+            </div>    
+        </div>    
+    </nav>
+         
+<!-- SECCION QUIEN SOY -->
+<section class="quien-soy py-4 mt-5">
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-md-6" >
+                <img class="img-fluid mb-5 rounded-circle mt-5" src="imagenes/f25bd51d6f4b0e67f61cc2d44e6ad5d9--sou-larissa.jpg" alt="desarrollador" width="400px">
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-left align-self-md-center">
+                <h1 class="display-4 font-weight-bold text-primary">¿Quién soy?</h1>
+                <p> <h5> Mi nombre es Carmela Romero Luna, tengo 28 años y soy soltera.
+                    Fui estudiante de la Carrera de geoloía en la Facultad de Ciencias Exactas, Físicas y Naturales hasta el año 2019, llegando a cursar materias del cuarto año. Este 2020 decidí animarme al cambio y formarme, con entusiasmo y dedicación, en el ámbito de la programación. 
+                    Soy una persona seria, responsable , comprometida , curiosa y a la que siempre le gusta aprender cosas nuevas, creo en el valor de la experiencia y trabajo duro utilizando cada oportunidad como un elemento para desarrollarme de forma personal y profesional.
+                    Tengo facilidad para desenvolverme con las personas y me gusta tratar con el público. 
+                    </h5></p>
+                <a href="#" class="btn btn-primary btn-lg"> Leer más </a>
+            </div>
+        </div>
+    </div>
+</section>     
+
+<!-- SECCION FILOSOFIA -->
+
+<section class="filosofia py-4 bg-primary text-center text-white">
+    
+    <div class="container ">
+        <div class="row">
+            <div class="col-12">
+                <img class="img-fluid rounded-circle mb-4" src="imagenes/avatarrr.jpg" width="230" alt="avatar">
+                <p class="h2">“La imaginación es la facultad del descubrimiento, preeminentemente. Es lo que penetra en los mundos nunca vistos a nuestro alrededor, los mundos de la ciencia.”</p>
+                <p class="h5 font-italic">-Ada Lovelace</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="proyectos" type="text" class="mis-proyectos py-4">
+    <div class="container ">
+        <h1 class="display-4 font-weight-bold text-center pb-4">Mis proyectos</h1>
+        <div class="row text-md-center">
+            <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <div class="card" >
+                    <img src="IMAGENES/proyecto1.png" class="card-img-top" alt="proyecto1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary verProyecto">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <div class="card" >
+                    <img src="IMAGENES/proyecto2.png" class="card-img-top" alt="proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary verProyecto">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <div class="card" >
+                    <img src="IMAGENES/proyecto3.png" class="card-img-top" alt="proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary verProyecto">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <div class="card" >
+                    <img src="IMAGENES/proyecto4.png" class="card-img-top" alt="proyecto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary verProyecto">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+<!-- SECCION PIE DE PAGINA  -->
+<footer class="pie-de-pagina text-center bg-dark text-white ">
+    <div class="container">
+        <p class="mb-0 py-3 text-lg-right">Copyright. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+
+
+
+
+    <script src="JS/app.js"></script>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+</body>
+</html>
