@@ -6,18 +6,18 @@ eventListener();
 
 function eventListener() {
 
-    misProyectos.addEventListener('click', verMisProyectos);
-    menu.addEventListener('click', verOpcionesMenu);  
+    //misProyectos.addEventListener('click', verMisProyectos);
+   // menu.addEventListener('click', verOpcionesMenu);  
 
 }
 
 // DELEGATION PARA MIS PROYECTOS
-function verMisProyectos(e) {
+// function verMisProyectos(e) {
 
-    e.preventDefault();
+//     e.preventDefault();
 
-    if (e.target.classList.contains('verProyecto')) {
+//     if (e.target.classList.contains('verProyecto')) {
 
-    };
+//     };
 
-}
+// }

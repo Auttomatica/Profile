@@ -33,4 +33,8 @@ body {
   -webkit-box-shadow: 0 0 10px #1b171a5e;
           box-shadow: 0 0 10px #1b171a5e; }
 
+.nav-item{
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
