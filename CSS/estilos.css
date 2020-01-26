@@ -41,3 +41,52 @@ body {
   font-size: 17px;
 }
 /*# sourceMappingURL=estilos.css.map */
+
+@media (max-width: 767px){
+
+  .miFoto{
+    width: 250px;
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 767px){
+
+  .adaFoto{
+    display: none;
+    
+  }
+}
+
+@media (min-width: 800px) and (max-width: 985px){
+
+  .adaFoto{
+    
+    width: 120px;
+  }
+}
+@media (min-width: 985px){
+
+  .adaFoto{
+    
+    width: 180px;
+  }
+}
+
+
+@media (min-width: 985px) {
+
+  .fraseAda{
+    margin-top: 80px;
+    
+  }
+}
+
+@media (max-width: 800px) {
+
+  .fraseAda{
+    display: inline-block;
+    border: papayawhip;
+    
+  }
+}
