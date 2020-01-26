@@ -17,7 +17,7 @@
     <!-- ESTILOS CSS PROPIOS -->
     <link type="text/css" rel="stylesheet" href="CSS/estilos.css">
 
-    <title>Mi Blog</title>
+    <title>Mi perfil</title>
 
 </head>
 
@@ -37,9 +37,15 @@
             <!-- BOTON DESPlEGABLE -->
             <div class="collapse navbar-collapse" id="menuPrincipal">
                 <ul class="navbar-nav ml-auto">
+
                     <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link btnQuienSoy" onclick="document.querySelector('.quien-soy').focus()">¿Quien soy?</a></li>
-                    <li class="nav-item"><a class="nav-link btnMisProyectos" onclick="document.querySelector('.mis-proyectos').focus()">Mis proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link btnQuienSoy"
+                            onclick="document.querySelector('.quien-soy').focus()">¿Quien soy?</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            onclick="document.querySelector('.educacion-experiencia').focus()">Educación y experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link btnMisProyectos"
+                            onclick="document.querySelector('.mis-proyectos').focus()">Mis proyectos</a></li>
+
                 </ul>
             </div>
         </div>
@@ -49,15 +55,15 @@
     <section class="quien-soy py-4 mt-5" tabindex="-1">
         <div class="container">
             <div class="row ">
-                <div class="col-12 col-md-6">
-                    <img class="img-fluid mb-5 rounded-circle mt-5"
+                <div class="col-12 align-content-sm-center col-md-6  ">
+                    <img class="img-fluid  mb-5 rounded-circle mt-5  "
                         src="imagenes/f25bd51d6f4b0e67f61cc2d44e6ad5d9--sou-larissa.jpg" alt="desarrollador"
                         width="400px">
                 </div>
-                <div class="col-12 col-md-6 text-center text-md-left align-self-md-center">
+                <div class="col-12 col-md-6 text-center text-md-left align-self-md-center ">
                     <h1 class="display-4 font-weight-bold text-primary">¿Quién soy?</h1>
                     <p>
-                        <h5> Mi nombre es Carmela Romero Luna, tengo 28 años.
+                        <h5> Mi nombre es Carmela Romero Luna, tengo 28 años y soy de Córdoba Capital.
                             Fui estudiante de la carrera de geología en la Facultad de Ciencias Exactas, Físicas y
                             Naturales hasta el año 2019, llegando a cursar materias del cuarto año. Este 2020 decidí
                             animarme al cambio y formarme, con entusiasmo y dedicación, en el ámbito de la programación.
@@ -75,23 +81,125 @@
 
     <!-- SECCION FILOSOFIA -->
 
-    <section class="filosofia py-4 bg-primary text-center text-white">
+    <section class="filosofia py-2 bg-primary text-left text-white">
 
         <div class="container ">
             <div class="row">
-                <div class="col-12">
-                    <img class="img-fluid rounded-circle mb-4 text-align-" src="imagenes/avatarrr.jpg" width="150" alt="avatar">
-                    <p class="h4">“La imaginación es la facultad del descubrimiento, preeminentemente. Es lo que penetra
+                <div class="col-12 text-center text-md-left">
+                    <h2 class="display-4 font-weight-bold  mt-5">Objetivos </h2>
+                    <p class="h4  py-5">Pasar a formar parte de una empresa que me permita aprender, descubrir y
+                        desarollarme para poder
+                        contribuir, con compromiso, responsabilidad y entusiasmo, a que la empresa alcance sus
+                        objetivos. </p>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <img class="img-fluid rounded-circle mb-4 text-align ml-5" src="imagenes/avatarrr.jpg" width="150"
+                        alt="avatar">
+                </div>
+                <div class="col-9 py-5 ">
+                    <p class="h5 text-left">“La imaginación es la facultad del descubrimiento, preeminentemente. Es lo
+                        que penetra
                         en los mundos nunca vistos a nuestro alrededor, los mundos de la ciencia.”</p>
-                    <p class="h5 font-italic">-Ada Lovelace</p>
+                    <p class="h5 font-italic text-right">-Ada Lovelace</p>
+
                 </div>
             </div>
+
         </div>
     </section>
 
 
+    <!--SECCION EDUCACION-->
+    <section id="Educación" tabindex="-1" class="educacion-experiencia py-4">
+        <div class="container py-5 ">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3 class="display-4 font-weight-bold text-primary text-center">Educación</h3>
+                    <div class="row py-5">
+                        <div class="col-4 col-sm-6 ">
+                            <p class="tamañoLetra"> <strong>CURSOS y COMPETENCIAS </br></strong>
+
+                                - Javascript </br>
+                                - Git y github</br>
+                                - Bootstrap</br>
+                                - Html</br>
+                                - Visual Studio Code</br>
+
+                                <b> Editor de texto preferido:</b> vscode.
+                                - plugin: ESlint para buenas practicas.</br>
+                                <b> Plataformas:.</b> netlify</br>
+                                <i>Ventajas:</i> </br>
+                                - Este servicio me proporciona dominios y certificados gratuitos.</br>
+                                - Se vincula con mi repositorio de github.
+
+                                <b> Versionador de codigo:</b> git.
+
+                                <b>Repositorio:.</b> github
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="tamañoLetra"> <b> - Nivel primario y secundario </b>(2009)</br>
+                                <i> Institución Escuti</i></br>
+                                Especialidad en Ciencias sociales y humanísticas.</br>
+                                <b> - Universidad</b>(2012)</br>
+                                Facultad de ciencias exactas, físicas y naturales</br>
+                                <i> Licenciatura en geología.</i></br>
+                                Cursado hasta 4to año de la carrera.</br>
+                                <b> - Tecnicatura</b>(2020)</br>
+                                <i> Universidad Tecnológica Nacional</i></br>
+                                Inscripta para cursar el corriente año la tecnicatura en programación
+                                (Horarios flexibles de cursado)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-6 border-left">
+                    <h3 class="display-4 font-weight-bold text-primary text-center">Experiencia laboral</h3>
+                    <div class="row py-5">
+                        <div class="col-4 col-sm-6">
+                            <p class="tamañoLetra ml-4"> <strong>Córdoba Capital </br> Noviembre 2015-Diciembre
+                                    2019</strong>
+                            </p class="tamañoLetra">
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p class="tamañoLetra"> <b> Asistente y gestora de trámites </b> </br>
+                                <i> De Antonio y Asociados ( Consultora Minera)</i> </br>
+                                Elaboración y corrección de informes de impacto ambiental para
+                                presentar en la Secretaría de minería realizando trabajos de campo
+                                para verificar dicha información. </br>
+                                Gestión de trámites y trato constante con clientes. </br>
+                                Resolución de conflictos entre el organismo público y los productores
+                                mineros. </br>
+                                Referencias : 351-5128268 – (Miguel De Antonio)
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+    <!-- SECCION MIS PROYECTOS-->
     <section id="proyectos" type="text" tabindex="-1" class="mis-proyectos py-4">
-        <div class="container " name="allProyect">
+        <div class="container ">
             <h1 class="display-4 font-weight-bold text-center pb-4">Mis proyectos</h1>
             <div class="row text-md-center">
                 <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-0">
@@ -101,7 +209,8 @@
                             <h5 class="card-title">Carrito de compras</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="https://proyectocarrito.netlify.com/" target="_blank" class="btn btn-primary verProyecto">Ver proyecto</a>
+                            <a href="https://proyectocarrito.netlify.com/" target="_blank"
+                                class="btn btn-primary verProyecto">Ver proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +222,8 @@
                             <h5 class="card-title">Lista de Tweets</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="https://tweet-local-storage.netlify.com/" target="_blank" class="btn btn-primary verProyecto">Ver proyecto</a>
+                            <a href="https://tweet-local-storage.netlify.com/" target="_blank"
+                                class="btn btn-primary verProyecto">Ver proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +235,8 @@
                             <h5 class="card-title">To do List</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="https://proyecto-todolist.netlify.com/" target="_blank" class="btn btn-primary verProyecto">Ver proyecto</a>
+                            <a href="https://proyecto-todolist.netlify.com/" target="_blank"
+                                class="btn btn-primary verProyecto">Ver proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -161,4 +272,13 @@
     <script src="JS/bootstrap.min.js"></script>
 </body>
 
-</html>
+
+
+
+
+
+<!-- 
+</html><a href="https://www.udemy.com/course/javascript-moderno-guia-d8efinitiva-construye-10-proyectos/" target="_blank"> javascript (40%) </a> </b>
+<a href="https://www.udemy.com/course/git-github/"  target="_blank"> Git-Github (50%) </a></b>
+<a href="https://www.udemy.com/course/vscode-mejora-tu-velocidad-para-codificar/"  target="_blank"> Visual Studio Code (100%) </a></b>
+<a href="https://www.udemy.com/course/curso-la-biblia-perdida-de-bootstrap-4/"  target="_blank"> Bootstrap (100%) </a></b> -->
